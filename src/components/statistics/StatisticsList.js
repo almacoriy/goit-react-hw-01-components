@@ -4,7 +4,7 @@ import Statistics from 'components/statistics/Statistics';
 export default function StatisticsList({ title, stats }) {
   return (
     <section className="statistics">
-      <h2 className="title">{title}</h2>
+      {title && <h2 className="title">{title}</h2>}
       <ul className="stat-list">
         {stats.map(elem => {
           return (
