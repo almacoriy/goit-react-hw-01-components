@@ -1,0 +1,17 @@
+.transactionHistory {
+  display: grid;
+  justify-content: center;
+
+  margin-bottom: 50px;
+}
+
+thead {
+  background-color: #4597da;
+}
+
+.trHead {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+
+  padding: 15px;
+}

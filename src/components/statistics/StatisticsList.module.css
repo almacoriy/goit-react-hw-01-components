@@ -1,0 +1,17 @@
+.statistics {
+  margin-bottom: 100px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.statList {
+  display: grid;
+  grid-template-columns: repeat(5, 80px);
+  grid-gap: 10px;
+  justify-content: center;
+  list-style: none;
+}
